@@ -24,12 +24,12 @@ export const CTA_CONFIG = {
   buttonStyles: {
     primary: {
       size: "lg" as const,
-      className: "bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-8 py-6 font-bold",
+      className: "bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-8 py-6 font-bold min-w-[200px]",
     },
     secondary: {
       size: "lg" as const,
       variant: "outline" as const,
-      className: "bg-primary-foreground text-primary hover:bg-primary-foreground/90 text-lg px-8 py-6 font-bold border-2",
+      className: "bg-primary-foreground text-primary hover:bg-primary-foreground/90 text-lg px-8 py-6 font-bold border-2 min-w-[200px]",
     },
   },
 } as const;
