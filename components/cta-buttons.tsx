@@ -1,3 +1,5 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import { Phone, Calculator } from "lucide-react"
 import { CTA_CONFIG, type CTAButtonType, type CTAButtonVariant } from "@/lib/cta-config"
@@ -25,12 +27,21 @@ export function CTAButton({ type, variant = 'primary', className, onClick }: CTA
     }
   }
 
+  const handleClick = () => {
+    if (onClick) {
+      onClick()
+    } else {
+      // 기본 동작: 설정된 URL로 이동
+      window.open(config.url, '_blank')
+    }
+  }
+
   return (
     <Button
       size={buttonStyle.size}
       variant={buttonStyle.variant}
       className={`${buttonStyle.className} ${className || ''}`}
-      onClick={onClick}
+      onClick={handleClick}
     >
       {getIcon()}
       {config.text}
