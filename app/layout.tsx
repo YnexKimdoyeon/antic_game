@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "연희실장 - 게임기 매입 전문",
+  title: "게임기 마켓 - 게임기 매입 전문",
   description:
     "플레이스테이션, 닌텐도, 엑스박스, Steam Deck 등 각종 게임기 매입. 투명한 시세, 빠른 현금화, 24시간 상담 가능.",
   generator: "v0.app",

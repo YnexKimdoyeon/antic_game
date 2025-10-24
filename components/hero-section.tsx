@@ -8,7 +8,7 @@ export function HeroSection() {
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-balance">
             각종 게임기 매입,
             <br />
-            믿을 수 있는 연희실장
+            믿을 수 있는 게임기 마켓
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/90 text-pretty">

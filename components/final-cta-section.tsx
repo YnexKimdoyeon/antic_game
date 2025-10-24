@@ -9,7 +9,7 @@ export function FinalCtaSection() {
           <h2 className="text-3xl md:text-5xl font-bold text-balance">
             이제는 게임기 매입도
             <br />
-            연희실장에서!
+            게임기 마켓에서!
           </h2>
 
           <CTAGroup className="pt-4" />
