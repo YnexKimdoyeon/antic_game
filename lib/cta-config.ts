@@ -2,14 +2,14 @@
 export const CTA_CONFIG = {
   // 상담하러가기 링크
   consultation: {
-    url: "https://www.naver.com/", 
+    url: "https://open.kakao.com/o/sfbDn3Cf", 
     text: "상담하러가기",
     icon: "phone" as const,
   },
   
   // 단가보러가기 링크
   pricing: {
-    url: "https://www.naver.com/", 
+    url: "https://www.jjtk1123.com/single-project", 
     text: "단가보러가기", 
     icon: "calculator" as const,
   },
